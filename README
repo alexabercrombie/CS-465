@@ -1,0 +1,13 @@
+I used Angular for the front end architecture for the application. The application used Express to gather the data and send the HTML data to the user and Angular to be rendered in the browser. I used handlebars to help format the data from the database in HTML. I used JavaScript to code the main functionality of the application and how it interacts. The benefits of using the single page application are that it can render much quicker and it has more tools that allows the user to interact in a more simple pane. Some of the disadvantages are that it can add more complexity to the backend, and it may not be as optimized for search engines if you are trying to have you page searchable. The backend uses a MongoDB NoSQL database because it provides the flexibility for entries in the database that are not all identical schemas. This allows for additional information to added to documents and it will not interrupt the database. MongoDB also allows schema restrictions so you can still structure the most important parts of the database and verify on the front end as well as the backend to make sure all entries match what you are expecting. 
+
+ 
+
+JSON is different than JavaScript in that JSON is a formatted text that can help transfer data between applications and systems. JavaScript is a programming language that works just like any other language with functions and variables. I moved the trip card into its own component, I refactored the API calls to the TripData service. These both helped improve efficiency and reduce redundant API and database calls. 
+
+ 
+
+I used MongoDB and Postman to test the database and the API calls. This allowed me to add and remove documents from the database as well as making sure that the database interaction was active and correct. 
+
+ 
+
+This course has been incredibly helpful. I have found myself asking questions as I visit other web applications and I try so think about the backend and how they were created. I have a much better understanding of what it takes to create a full web application and I feel that when I create a project going forward I will be able to start from a much more clear idea of what the finished project should look like. Having the understanding of how it all comes together and how the components interact with each other has sparked some ideas that I would like to implement into some of my own projects. 
